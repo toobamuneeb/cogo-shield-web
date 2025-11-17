@@ -36,7 +36,7 @@ export default function InstallPWA() {
     setShow(false);
   };
 
-  // if (!show) return null;
+  if (!show) return null;
 
   return (
     <div style={styles.overlay}>
